@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -10,7 +10,7 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { ArrowRight, Award, BarChart3, CheckCircle, Linkedin, PenTool, Quote, Search, Settings, Sparkles, Target, TrendingUp, Users, Zap } from 'lucide-react';
+import { ArrowRight, Award, BarChart3, CheckCircle, Linkedin, Instagram, Twitter, Facebook, PenTool, Quote, Search, Settings, Sparkles, Target, TrendingUp, Users, Zap } from 'lucide-react';
 
 export default function Page() {
   return (
@@ -381,17 +381,17 @@ export default function Page() {
               ariaLabel: "Follow us on LinkedIn"
             },
             {
-              icon: "Twitter",
+              icon: Twitter,
               href: "https://twitter.com/greenscope",
               ariaLabel: "Follow us on Twitter"
             },
             {
-              icon: "Instagram",
+              icon: Instagram,
               href: "https://instagram.com/greenscope",
               ariaLabel: "Follow us on Instagram"
             },
             {
-              icon: "Facebook",
+              icon: Facebook,
               href: "https://facebook.com/greenscope",
               ariaLabel: "Follow us on Facebook"
             }
